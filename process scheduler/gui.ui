@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1355</width>
+    <height>847</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;Consolas&quot;;</string>
+  </property>
+  <widget class="QFrame" name="frame_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1301</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+background-color:rgb(248, 248, 248);
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QTableWidget" name="table_process">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>590</y>
+      <width>831</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1111111</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+
+background-color: rgb(255, 255, 255);
+
+
+}</string>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustIgnored</enum>
+    </property>
+    <property name="autoScroll">
+     <bool>true</bool>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="dragDropOverwriteMode">
+     <bool>true</bool>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::NoSelection</enum>
+    </property>
+    <property name="verticalScrollMode">
+     <enum>QAbstractItemView::ScrollPerItem</enum>
+    </property>
+    <property name="horizontalScrollMode">
+     <enum>QAbstractItemView::ScrollPerItem</enum>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="cornerButtonEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="rowCount">
+     <number>15</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>100</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>20</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>AT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>BT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Priority</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>WT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NTT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>590</y>
+      <width>431</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: rgb(150, 150, 150);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>1</y>
+       <width>429</width>
+       <height>249</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(248, 248, 248);
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox2">
+      <property name="geometry">
+       <rect>
+        <x>7</x>
+        <y>10</y>
+        <width>415</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrmae{
+background-color: rgb(219, 255, 217);
+}</string>
+      </property>
+      <property name="title">
+       <string>Input Process</string>
+      </property>
+      <widget class="QLineEdit" name="input_id">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+color: rgb(144, 136, 80);
+}</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_at">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_bt">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_push">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>100</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PUSH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>AT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>30</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>BT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_state_process">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>100</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_priority">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>25</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Priority</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="btn_start">
+      <property name="geometry">
+       <rect>
+        <x>191</x>
+        <y>170</y>
+        <width>231</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_reset">
+      <property name="geometry">
+       <rect>
+        <x>7</x>
+        <y>170</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+color: rgb(255, 29, 29);
+}</string>
+      </property>
+      <property name="text">
+       <string>RESET</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>10</y>
+      <width>251</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: rgb(150, 150, 150);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>1</y>
+       <width>249</width>
+       <height>559</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	background-color: rgb(248, 248, 248);
+
+
+
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Number of Processor</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <widget class="QRadioButton" name="btn_cn1">
+       <property name="geometry">
+        <rect>
+         <x>45</x>
+         <y>35</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_cn2">
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>35</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_cn3">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>35</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_cn4">
+       <property name="geometry">
+        <rect>
+         <x>165</x>
+         <y>35</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>60</y>
+         <width>16</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>16</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>60</y>
+         <width>16</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;3</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>60</y>
+         <width>16</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;4</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>231</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>Scheduler</string>
+      </property>
+      <widget class="QRadioButton" name="btn_FCFS">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>FCFS</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_RR">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>RR</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_SPN">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SPN</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_SRTN">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SRTN</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_PSPN">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PSPN</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="btn_HRRN">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>HRRN</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>340</y>
+        <width>231</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Time Quantum</string>
+      </property>
+      <widget class="QLineEdit" name="input_timeQuantum">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_state_timeQuantum">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_image">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>251</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>1011</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1011</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="chart_view"/>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
